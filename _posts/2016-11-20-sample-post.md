@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: posts
-title: About Prodige
+title: About PRODIGE
 subtitle: This is a test post.
 featured-image: /images/header/NOEMA.jpg
 ---
