@@ -1,57 +1,17 @@
 ---
-layout: post-index
+layout: post
+title: About PRODIGE
+subtitle: A NOEMA MPG-IRAM Large Program
+featured-image: /images/header/NOEMA.jpg
 ---
-{% for post in paginator.posts %}
-<article>
-    
-    <!-- POST FEATURED IMAGE -->
-    <div class="featured-image">
-    <img src="{{ post.featured-image}}" style="width:100%">
-    </div>
+# PRODIGE (PROtostars and DIsks: Global Evolution) 
 
-    <!-- POST TITLE -->
-    <header>
-        <h1 class="entry-title">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a>
-        </h1>
-        <h3 class="entry-subtitle">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.subtitle }}</a>
-        </h3>
-    </header>
+<p>
+PRODIGE is a survey of 32 very young Class 0/I protostars in the Perseus Molecular Cloud (PI P. Caselli) as well as 8 more-evolved Class II protoplanetary disks in the Taurus Molecular Cloud (PI Th. Henning).  We use the powerful, wideband observations from the NOEMA interferometer to study the angular momentum, density, temperature, turbulence, and chemical compositions of protostars and pre-main-sequence stars during the evolutionary eras where planet formation begins.  At the conclusion of our survey (late 2025 or early 2026), science ready data products will be publically released for over 7 million individual frequency channels.
+</p>
 
-    <!-- POST CONTENT -->
-<!--     <div class="entry-content">
-        {{ post.content }}
-    </div> -->
-    
-    <!--- DIVIDING LINE -->
-    <hr>
-    
-    <!-- POST TAGS -->
-    <div class="inline-tags">
-        <span>
-        {% for tag in post.tags %}
-            <a href="/tags/#{{tag}}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
-        {% endfor %}
-        </span>
-    </div>
-    
-    <br>
-    
-    <!-- POST DATE -->
-    <div class="post-date">
-        <span class="entry-date date published updated">
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-                <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
-            </time>
-        </span>
-    </div>
-    
-</article>
-{% endfor %}
-
-<div class="pagination">
 <center>
-{% include pagination.html %}
-</center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="/images/MIOP-logo.webp">
     </div>
+</center>
