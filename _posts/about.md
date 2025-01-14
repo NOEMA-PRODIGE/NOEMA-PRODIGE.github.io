@@ -2,7 +2,7 @@
 layout: post
 categories: posts
 title: About PRODIGE
-subtitle: This is a test post.
+subtitle: A NOEMA MPG-IRAM Large Program
 featured-image: /images/header/NOEMA.jpg
 ---
 # PRODIGE (PROtostars and DIsks: Global Evolution) -- A NOEMA MPG-IRAM Large Program 
